@@ -1,11 +1,11 @@
 h1{
-	color: black;
+	color: white;
 	font-size: 50px;
 	text-decoration: underline;
 }
 
 h2{
-	font-size: 40px;
+	font-size: 3vw;
 }
 div.container{
 	height: 100%;
@@ -20,7 +20,7 @@ header{
 }
 
 body{
-	background-image: url("./Bhangra-117.jpg");
+	background-image: url("./Bhangra-117-min.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center; 
@@ -29,14 +29,18 @@ body{
 
 #navi{
 	color: white;
-	font-size: 30px;
+	font-size: 2vw;
 	display: block;
 	max-width: 35%;
 	float:right;
 	margin: 0;
 	padding-top: 1.5em;
 	padding-left: 1em;
-	padding-right: 5em;
+	padding-right: 3em;
+	background-color:black;
+	opacity: 0.7; 
+	height: 55%;
+	width:20%;
 }
 
 
@@ -50,13 +54,13 @@ nav ul a{
 }
 
 article{
-	max-width: 35%;
+	max-width: 30%;
 	color: white;
 	margin-right: 250px;
 	padding:1em;
-	padding-top: 2em;
-	overflow: hidden;
-	height: 80%;
+	padding-top: 1em;
+	overflow: scroll;
+	height: 60%;
 }
 
 article p,article h1{
@@ -67,7 +71,10 @@ a{
 	color: white;
 }
 
-
+article{
+	background-color:black;
+	opacity: 0.7; 
+}
 
 
 
