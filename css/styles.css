@@ -61,20 +61,16 @@ article{
 	padding-top: 1em;
 	overflow: scroll;
 	height: 60%;
+	background-color:black;
+	opacity: 0.7;
+	float:left; 
 }
 
-article p,article h1{
-	float: left;
-}
 
 a{
 	color: white;
 }
 
-article{
-	background-color:black;
-	opacity: 0.7; 
-}
 
 
 
