@@ -1,9 +1,0 @@
-About Me
-
-I’m a computer science student at the University of Rochester and a future titan in the software development industry. My schooling and side projects have taught me many skills that include object-oriented programming, scripting languages, data structures, and algorithms. <br><br>
-
-I’m currently working in android development but I also work on whatever else catches my interest, from sharpening my bash scripting skills to trying out tensorflow for machine learning.<br> <br>
-
-Other than coding, I like to cook fancy meals, go on hikes, and dance on the Rochester Bhangra competitive dance team.<br><br>
-
-Check out the links to the right!

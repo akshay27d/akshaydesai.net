@@ -1,75 +1,149 @@
-h1{
-	color: white;
-	font-size: 50px;
-	text-decoration: underline;
+.navbar {
+    margin-bottom: 0;
+    color: white;
 }
 
-h2{
-	font-size: 3vw;
-}
-div.container{
-	height: 100%;
-	width: 100%
-}
-
-header{
-	padding:1em;
-	color:white;
-	clear:left;
-	text-align: left;
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none
 }
 
 body{
-	background-image: url("./Bhangra-117-min.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center; 
+	background-image: url("./organic-tiles.png");
+    background-repeat: repeat;
+}
+
+#myCarousel{
+	margin-top: 1em;
+	width: 100%;
+	max-height: 700px;
+}
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 700px;
+
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+    max-height: 700px;
+}
+
+.carousel-top h2{
+    top: 0;
+    margin:0;
+    padding:10px;
+    color: white;
+    text-align: center;
 
 }
 
-#navi{
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.col-sm-12, .carousel-top{
 	color: white;
-	font-size: 2vw;
-	display: block;
-	max-width: 35%;
-	float:right;
-	margin: 0;
-	padding-top: 1.5em;
-	padding-left: 1em;
-	padding-right: 3em;
-	background-color:black;
-	opacity: 0.7; 
-	height: 55%;
-	width:20%;
+	text-shadow:-1px -1px 0 black,
+		1px -1px 0 black,
+		-1px 1px 0 black,
+		1px 1px 0 black;
 }
 
+.col-sm-6{
+	color: black;
 
-nav ul{
+}
+
+.gotorepo{
+	color: white;
+}
+
+.mylink a{
+	color: black;
+}
+
+.links{
 	list-style-type: none;
-	padding: 0;
+	font-size: 30px;
+	text-align: center
 }
 
-nav ul a{
-	text-decoration: none;
+.ptitle{
+	text-align: center
 }
 
-article{
-	max-width: 30%;
-	color: white;
-	margin-right: 250px;
-	padding:1em;
-	padding-top: 1em;
-	overflow: scroll;
-	height: 60%;
-	background-color:black;
-	opacity: 0.7;
-	float:left; 
+#elevator{
+	padding-left: 50px
+}
+
+#proj1{
+	background-image: url("./dtback.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	min-height:25em;
+}
+
+#proj2{
+	background-image: url("./drinkmateback.jpg");
+	min-height:25em;
+	background-size:cover;
+	background-repeat: no-repeat;
+	padding-left: 50%;
+}
+
+#proj3{
+	background-image: url("./cacheback.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	min-height:25em;
+}
+
+.projtext{
+	width: 50%
+
+}
+
+button{
+	background-color: green;
+
+}
+
+.contact{
+	text-align: center;
+	list-style: none;	
+	font-size: 2em;
+	padding: 1em;
+	overflow-x: hidden;
+	color: black
+}
+
+.mylink{
+	padding: 10px;
 }
 
 
-a{
-	color: white;
+button{
+	background-color: grey
 }
+
+p{
+	line-height: 1.1em;
+	padding-left: 1.5em;
+	text-indent:-1.5em;
+	overflow: hidden;
+}
+
+footer{
+	background-color: lightgray;
+	text-align: center;
+	padding:2em;
+	margin-top: 1em;
+}
+
+
 
 
 
